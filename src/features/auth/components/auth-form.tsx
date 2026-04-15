@@ -63,7 +63,7 @@ export function AuthForm({ providerNotice }: AuthFormProps) {
   }
 
   return (
-    <div className="flex min-h-[30.5rem] flex-col">
+    <div className="flex min-h-122 flex-col">
       <div className="mb-8 flex items-center justify-between gap-4">
         <SegmentedControl
           activeIndex={mode === "signup" ? 0 : 1}
@@ -73,7 +73,7 @@ export function AuthForm({ providerNotice }: AuthFormProps) {
         <button
           type="button"
           aria-label="Close panel"
-          className="inline-flex h-9 w-9 items-center justify-center rounded-full text-white/24 transition-colors duration-200 hover:bg-white/[0.05] hover:text-white/55"
+          className="inline-flex h-9 w-9 items-center justify-center rounded-full text-white/24 transition-colors duration-200 hover:bg-white/5 hover:text-white/55"
         >
           <CloseIcon />
         </button>
@@ -105,7 +105,7 @@ export function AuthForm({ providerNotice }: AuthFormProps) {
 
       <form action={formAction} className="mt-7 flex flex-1 flex-col">
         <input type="hidden" name="mode" value={mode} />
-        <div className="min-h-[11.75rem] space-y-2">
+        <div className="min-h-47 space-y-2">
           {mode === "signup" ? (
             <>
               <div className="grid gap-2 sm:grid-cols-2">
@@ -174,7 +174,7 @@ export function AuthForm({ providerNotice }: AuthFormProps) {
                       autoComplete="tel"
                       className={`auth-glass-field h-12 w-full rounded-[0.9rem] px-4 text-[0.875rem] outline-none transition-all duration-300 placeholder:text-field-placeholder ${
                         state.fieldErrors.phone
-                          ? "border-red-400/60 bg-red-500/[0.04] focus:border-red-300/80"
+                          ? "border-red-400/60 bg-red-500/4 focus:border-red-300/80"
                           : ""
                       }`}
                       inputMode="tel"
@@ -241,7 +241,7 @@ export function AuthForm({ providerNotice }: AuthFormProps) {
 
         <div className="relative my-6">
           <div className="absolute inset-0 flex items-center">
-            <div className="w-full border-t border-white/[0.04]" />
+            <div className="w-full border-t border-white/4" />
           </div>
           <div className="relative flex justify-center">
             <span className="bg-transparent px-4 text-[0.64rem] font-medium uppercase tracking-[0.18em] text-white/20">

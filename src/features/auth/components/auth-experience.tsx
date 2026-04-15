@@ -38,14 +38,14 @@ export function AuthExperience({ providerNotice }: AuthExperienceProps) {
                 Minimal friction.
               </h2>
               <p className="mt-6 max-w-sm text-sm leading-7 text-white/42">
-                Ported from Figma into a server-first Next.js route with reusable
-                auth primitives and a real submission path.
+                Ported from Figma into a server-first Next.js route with
+                reusable auth primitives and a real submission path.
               </p>
             </div>
           </div>
 
           <section
-            className="relative w-full max-w-[25.75rem] rounded-[1.75rem] border border-white/[0.08] bg-[linear-gradient(160deg,rgba(18,20,26,0.58),rgba(22,24,30,0.64))] p-6 shadow-[0_60px_120px_-30px_rgba(0,0,0,0.6),0_28px_70px_-20px_rgba(0,0,0,0.42),inset_0_1px_0_rgba(255,255,255,0.05),inset_0_-1px_0_rgba(0,0,0,0.2)] backdrop-blur-[44px] sm:p-7"
+            className="relative w-full max-w-103 rounded-[1.75rem] border border-white/8 bg-[linear-gradient(160deg,rgba(18,20,26,0.58),rgba(22,24,30,0.64))] p-6 shadow-[0_60px_120px_-30px_rgba(0,0,0,0.6),0_28px_70px_-20px_rgba(0,0,0,0.42),inset_0_1px_0_rgba(255,255,255,0.05),inset_0_-1px_0_rgba(0,0,0,0.2)] backdrop-blur-[44px] sm:p-7"
             style={{
               animation:
                 "auth-card-enter 1100ms cubic-bezier(0.16,1,0.3,1) forwards",
